@@ -1,0 +1,15 @@
+# Model inputs
+- Add noise to images 
+- Change the resolution of the images
+- Shift the images
+
+# Model structure
+- Change the number of hidden layers
+- Identify the bottleneck of the model, whether the CNN or the sequential:
+2 experiments: change parameters of CNN and leave LSTM as is, then change LSTM and leave CNN as is
+
+# Performance
+- Substitute the FasterCNN algorithm with YoloV7
+- Search for a dataset that does not have sagittal or frontal views
+
+
